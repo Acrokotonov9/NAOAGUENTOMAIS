@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAUNA — Equipamentos de combate</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="topbar">
+        FORÇA, INSTINTO E DESEMPENHO.
+        <span>FRETE GRÁTIS EM COMPRAS ACIMA DE R$ 399</span>
+    </div>
+
+    <header class="header">
+        <a class="logo" href="#inicio">FAUNA<span>®</span></a>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#produtos">Luvas</a>
+            <a href="#sobre">Sobre a FAUNA</a>
+        </nav>
+
+        <button class="cart-button" id="open-cart">
+            Sacola <span id="cart-count">0</span>
+        </button>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+
+            <div class="hero-copy">
+                <p class="eyebrow">EQUIPAMENTO. INSTINTO. EVOLUÇÃO.</p>
+
+                <h1>
+                    ENCONTRE<br>
+                    SEU <em>INSTINTO.</em>
+                </h1>
+
+                <p>
+                    Luvas feitas para quem treina com propósito.
+                    Descubra o modelo que acompanha a sua intensidade.
+                </p>
+
+                <a class="button button-light" href="#produtos">
+                    ENCONTRAR MINHA LUVA <span>↗</span>
+                </a>
+
+                <div class="hero-note">
+                    <span class="dot"></span>
+                    FEITO PARA TREINAR. PRONTO PARA LUTAR.
+                </div>
+            </div>
+
+            <div class="hero-art">
+                <div class="art-ring ring-one"></div>
+                <div class="art-ring ring-two"></div>
+
+                <div class="glove glove-back">
+                    <div class="glove-cuff"></div>
+                </div>
+
+                <div class="glove glove-front">
+                    <div class="glove-cuff"></div>
+                    <span>F</span>
+                </div>
+
+                <div class="art-caption">
+                    FAUNA / FIGHT SERIES<br>
+                    <b>01 — 05</b>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="benefits">
+            <div>
+                <span>01</span>
+                <strong>PROTEÇÃO</strong>
+                <small>Amortecimento para cada treino</small>
+            </div>
+
+            <div>
+                <span>02</span>
+                <strong>DESEMPENHO</strong>
+                <small>Conforto e firmeza no punho</small>
+            </div>
+
+            <div>
+                <span>03</span>
+                <strong>IDENTIDADE</strong>
+                <small>Design inspirado na natureza</small>
+            </div>
+        </section>
+
+        <section class="products-section" id="produtos">
+
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">ESCOLHA SEU EQUIPAMENTO</p>
+
+                    <h2>
+                        LUVA CERTA.<br>
+                        <em>MENTALIDADE CERTA.</em>
+                    </h2>
+                </div>
+
+                <p>
+                    Uma seleção de modelos para diferentes rotinas,
+                    níveis de treino e estilos.
+                </p>
+            </div>
+
+            <div class="toolbar">
+                <div class="filters">
+                    <button class="filter active" data-filter="todos">
+                        Todos
+                    </button>
+
+                    <button class="filter" data-filter="treino">
+                        Treino
+                    </button>
+
+                    <button class="filter" data-filter="sparring">
+                        Sparring
+                    </button>
+
+                    <button class="filter" data-filter="couro">
+                        Couro
+                    </button>
+                </div>
+
+                <label class="sort-label">
+                    Ordenar por
+
+                    <select id="sort">
+                        <option value="featured">Destaques</option>
+                        <option value="low">Menor preço</option>
+                        <option value="high">Maior preço</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="product-grid" id="product-grid"></div>
+
+        </section>
+
+        <section class="about" id="sobre">
+
+            <div class="about-mark">F.</div>
+
+            <div>
+                <p class="eyebrow">NÃO É SÓ EQUIPAMENTO</p>
+
+                <h2>
+                    O INSTINTO É SEU.<br>
+                    <em>A EVOLUÇÃO TAMBÉM.</em>
+                </h2>
+            </div>
+
+            <p>
+                A FAUNA une a força dos animais à disciplina dos
+                esportes de combate. Equipamentos para treinar com
+                confiança, constância e personalidade.
+            </p>
+
+        </section>
+
+        <section class="payments">
+
+            <div>
+                <p class="eyebrow">COMPRA SIMPLES E SEGURA</p>
+                <h2>FORMAS DE PAGAMENTO</h2>
+            </div>
+
+            <div class="payment-list">
+
+                <div class="payment-card">
+                    <b>PIX</b>
+                    <span>Pagamento instantâneo</span>
+                </div>
+
+                <div class="payment-card">
+                    <b>VISA</b>
+                    <span>Crédito e débito</span>
+                </div>
+
+                <div class="payment-card">
+                    <b>mastercard</b>
+                    <span>Crédito e débito</span>
+                </div>
+
+                <div class="payment-card">
+                    <b>BOLETO</b>
+                    <span>Pagamento por boleto</span>
+                </div>
+
+            </div>
+
+            <small class="payment-note">
+                Formas ilustrativas. O site ainda não processa pagamentos reais.
+            </small>
+
+        </section>
+    </main>
+
+    <footer>
+        <a class="logo" href="#inicio">FAUNA<span>®</span></a>
+
+        <p>FORÇA, INSTINTO E DESEMPENHO.</p>
+
+        <small>© 2026 FAUNA. Projeto demonstrativo.</small>
+    </footer>
+
+
+    <div class="overlay" id="overlay"></div>
+
+    <aside class="cart-drawer" id="cart-drawer">
+
+        <div class="cart-head">
+            <div>
+                <p class="eyebrow">SEU EQUIPAMENTO</p>
+                <h2>SACOLA <span id="drawer-count">(0)</span></h2>
+            </div>
+
+            <button id="close-cart" class="close-button">×</button>
+        </div>
+
+        <div class="cart-items" id="cart-items">
+            <p class="empty-cart">Sua sacola está vazia.</p>
+        </div>
+
+        <div class="cart-bottom">
+
+            <div class="subtotal">
+                <span>Subtotal</span>
+                <strong id="subtotal">R$ 0,00</strong>
+            </div>
+
+            <p>Frete calculado na próxima etapa.</p>
+
+            <button id="checkout" class="button button-dark full">
+                CONTINUAR COMPRA ↗
+            </button>
+
+            <small class="demo-warning">
+                Checkout demonstrativo — nenhuma cobrança será feita.
+            </small>
+
+        </div>
+
+    </aside>
+
+    <div class="toast" id="toast"></div>
+
+</body>
+</html>
